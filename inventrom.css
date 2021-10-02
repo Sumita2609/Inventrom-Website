@@ -1,0 +1,187 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css";
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+header{
+	position: fixed;
+	height: 80 px;
+}
+
+header img{
+	height: 30px;
+	position: fixed;
+	left: 10%;
+	z-index: 1;
+}
+
+ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+li{
+	float: right;
+}
+
+.site-nav{
+	background-color: white;
+	width: 100%;
+	position: fixed;
+	height: 80px;
+	top: 0px;
+	float: right;
+}
+
+a{
+	padding: 20px;
+	width: 80px;
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+}
+
+.background-img{
+	background-image: url("background-layer.png");
+	height: 750px;
+	width: 100%;
+	text-align: center;
+}
+
+.quote{
+	color: white;
+	position: relative;
+	top: 50%;
+	font-family: cursive;
+}
+
+#section3{
+	height: 700px;
+	padding:3.5%;
+	background-color: white;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color: #139139;
+}
+
+.about-quote{
+	position: relative;
+	top: 6%;
+	color: #000000;
+	text-align: center;
+	font-family: cursive;
+}
+
+.about-content{
+	width: 100%;
+}
+
+.about-cards{
+	width: 35%;
+	padding:1.5% ;
+	height: 300px;
+	float: left;
+	margin-left: 90px;
+}
+
+.about-cards img{
+	width: 100%;
+}
+
+.c1{
+	text-align: left;
+	color:#139139;
+}
+
+.c2{
+	text-align: left;
+	color: black;
+}
+h1{
+	position: relative;
+	top: 2%;
+	text-align: center;
+	color: #139139;
+}
+#section2{
+	height: 700px;	
+	background-color: white;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color: #139139;
+	padding-top: 3.5%;
+}
+
+.awards-content{
+	width: 100%;
+}
+
+.awards-cards{
+	width: 20%;
+	padding:1.5% ;
+	height: 700px;
+	float: left;
+	text-align: center;
+	padding-left: 50px;
+}
+
+.awards-cards img{
+	width: 100%;
+}
+
+.c3{
+	color: black;
+}
+
+#section1{
+	height: 700px;
+	background-color: white;
+	display: inline-block;
+	width: 100%;
+	padding-top: 3.5%;
+}
+
+.c4{
+	text-align: center;
+	color: #139139;
+	font-family: cursive;
+}
+.contact-info{
+	width: 40%;
+	float: right;
+	height: 700px;
+	padding-right: 10px;
+}
+
+.contact-form{
+	padding-left: 10px;
+	width: 40%;
+	float: left;
+	height: 700px;
+}
+
+footer{
+	background-color: #139139;
+	height: 100px;
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+footer p{
+	padding-left: 80px;
+	padding-top: 30px;
+	color: white;
+}
+
+.social{
+	float: right;
+	margin-right: 20%;
+}
